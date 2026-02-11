@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Free Memory Game for Kids</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Simple memory game for kids. No login. Free to play." />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="css/game.css" />
+</head>
+<body>
+
+    <div class="frame">
+        <header class="top">
+            <h1>Memory Match</h1>
+            <span class="subtitle">A simple game for kids</span>
+        </header>
+
+        <main class="game" id="game"></main>
+
+        <footer class="bottom">
+            <span>Free • No login • No data</span>
+        </footer>
+    </div>
+
+    <script src="js/core.js"></script>
+   <!-- <script src="js/memory.js"></script>-->
+    <!--<script src="js/color.js"></script>-->
+    <script src="js/attention.js"></script>
+    <script>
+        Game.init("#game");
+        //Game.startMemory();
+      /*  Game.startColorMatch();*/
+        Game.startAttention();
+    </script>
+
+</body>
+</html>
